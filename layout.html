@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Basic Three-Column Layout</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      width: 30%;
+      margin: 10px;
+      background-color: #f2f2f2;
+      padding: 20px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Three-Column Layout</h1>
+  </header>
+
+  <div class="container">
+    <div class="column">
+      <h2>Column 1</h2>
+      <p>This is the content of column 1.</p>
+    </div>
+
+    <div class="column">
+      <h2>Column 2</h2>
+      <p>This is the content of column 2.</p>
+    </div>
+
+    <div class="column">
+      <h2>Column 3</h2>
+      <p>This is the content of column 3.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2023 YourWebsite.com</p>
+  </footer>
+</body>
+</html>
